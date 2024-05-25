@@ -5,7 +5,7 @@ import { RouterLink } from "vue-router";
   <div class="flex flex-wrap">
     <section class="relative mx-auto">
         <!-- navbar -->
-      <nav class="flex justify-between bg-gray-900 text-white w-screen">
+      <nav class="flex justify-between bg-gray-900 text-white w-[calc(100vw-17px)]">
         <div class="px-5 xl:px-12 py-6 flex w-full items-center">
           <RouterLink class="text-3xl font-bold font-heading flex justify-center" to="/">
             <img class="h-9" src="../assets/images/logo.png" alt="logo">

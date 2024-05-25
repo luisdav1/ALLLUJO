@@ -60,6 +60,7 @@ export default {
 .slide {
   display: flex;
   justify-content: center;
+  width: 100%;
   height: calc(100vh - 84px);
 }
 .slide img {
